@@ -45,17 +45,6 @@ def score(input_path='examples/1.jpg'):
     out_path = '/'.join(['output', input_path.split('/')[-1]])
     
     cv2.imwrite(out_path, img)
-
+    # return out_path
 if __name__ == '__main__':
     score(input_path='examples/1.jpg')
-    score(input_path='examples/2.jpg')
-    score(input_path='examples/3.jpg')
-    score(input_path='examples/4.jpg')
-    score(input_path='examples/5.jpg')
-    score(input_path='examples/6.jpg')
-    score(input_path='examples/7.jpg')
-    score(input_path='examples/8.jpg')
-    score(input_path='examples/10.jpg')
-    score(input_path='examples/11.jpg')
-    score(input_path='examples/12.jpg')
-    score(input_path='examples/13.jpg')
