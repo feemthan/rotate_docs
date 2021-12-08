@@ -15,7 +15,7 @@ RUN wget https://bootstrap.pypa.io/get-pip.py && \
 
 # ---- Dependencies ----
 FROM base AS dependencies
-COPY requirements.txt ./
+COPY service/requirements.txt ./
 RUN pip install -r requirements.txt
 
 # ---- Release ----
